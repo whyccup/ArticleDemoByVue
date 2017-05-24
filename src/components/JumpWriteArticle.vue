@@ -57,6 +57,7 @@
       },
       imgPreview (files) {
         let that = this;
+          //判断文件格式
         if (/^image/.test(files.type)) {
           // 创建一个reader
           var reader = new FileReader();
